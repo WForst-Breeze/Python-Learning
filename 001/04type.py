@@ -33,3 +33,20 @@ print("=========")
 # 注意：不是 o！不是空字符串！不是 False！只是代表全然妹有！举个栗子：
 your_girlfriend = None
 # 是不是瞬间懂了
+
+# 如果你不确定一个数据的数据类型，可以试一试 type() 函数。比如我们刚刚说的 len() 函数输出的类型：
+# 如果你直接用 print("这串字符串的长度为："+len("I do."))，会出现报错 “can only concatenate str (not "int") to str”
+# 这是因为 len() 输出的数据是整型，你却让人家跟在字符串的屁股后面，他俩不熟，自然就没办法正常合作了……
+# 你可以试着去掉井号来运行一下，看看是不是这样：
+
+# print("这串字符串的长度为："+len("I do."))
+
+# 此时如果我们使用 type() 函数，就可以很舒服地知道 len() 输出的类型了：
+type(len("1145141919810"))
+# print 出来
+print(type(len("1145141919810")))  # <class 'int'>
+# 同理……
+print(type(3.14159265897932))  # <class 'float'>
+print(type("你知道回字有四种写法吗"))  # <class 'str'>
+print(type(True))  # <class 'bool'>
+print(type(None))  # <class 'NoneType'>
