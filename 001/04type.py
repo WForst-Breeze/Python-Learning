@@ -27,3 +27,9 @@ print("=========")
 
 # 第四种类型：布尔类型（bool）
 # 只包含俩值：True 真，False 假（记得大写）
+
+# 第五种类型：空值类型（NoneType）
+# 只包含一个值：None
+# 注意：不是 o！不是空字符串！不是 False！只是代表全然妹有！举个栗子：
+your_girlfriend = None
+# 是不是瞬间懂了
