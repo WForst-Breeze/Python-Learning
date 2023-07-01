@@ -21,5 +21,5 @@ print("=========")
 # 来试着获取用户的身高体重数据以计算其 BMI 吧！
 height = input("您的身高是（单位：米）：")  # 用户输入身高
 weight = input("您的体重是（单位：千克）：")  # 用户输入体重
-bmi = float(weight) / (float(height)) ** 2    # 计算用户 bmi，由于身高和体重可能出现小数，因此转换为浮点型进行运算，否则可能会报错
+bmi = float(weight) / (float(height) ** 2)    # 计算用户 bmi，由于身高和体重可能出现小数，因此转换为浮点型进行运算，否则可能会报错
 print("您的 BMI 为："+str(bmi))  # 输出用户 bmi
