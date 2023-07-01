@@ -60,7 +60,7 @@ print("==========")
 height = float(input("您的身高是（单位：米）："))  # 用户输入身高
 weight = float(input("您的体重是（单位：千克）："))  # 用户输入体重
 bmi = float(weight / (height ** 2))    # 计算用户 bmi，由于身高和体重可能出现小数，因此转换为浮点型进行运算，否则可能会报错
-if bmi <= 18.5:141
+if bmi <= 18.5:
     print("您的 BMI 值为："+str(bmi)+"，属于偏瘦范围")
 elif 18.5 < bmi <= 25:
     print("您的 BMI 值为：" + str(bmi) + "，属于正常范围")
